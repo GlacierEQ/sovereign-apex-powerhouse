@@ -1,0 +1,35 @@
+{
+  "name": "sovereign-apex-powerhouse",
+  "version": "1.0.0",
+  "description": "Complete Sovereign Apex Powerhouse - Exponentially intelligent ecosystem",
+  "main": "index.js",
+  "scripts": {
+    "activate:full-system": "echo 'Sovereign Apex Powerhouse activation sequence initiated' && node scripts/activate-full-system.js",
+    "activate:components": "echo 'Component activation initiated' && node scripts/activate-components.js",
+    "phase:5:notion-registry": "echo 'Phase 5: Notion Registry' && node scripts/phases/phase-5.js",
+    "phase:6:operator-code": "echo 'Phase 6: Operator Code' && node scripts/phases/phase-6.js",
+    "phase:7:memory-federation": "echo 'Phase 7: Memory Federation' && node scripts/phases/phase-7.js",
+    "phase:8:global-sync": "echo 'Phase 8: Global Sync' && node scripts/phases/phase-8.js",
+    "dashboard:powerhouse": "echo 'Opening Powerhouse Dashboard at localhost:8080' && node scripts/dashboard.js",
+    "health:complete-system": "node scripts/health-check.js",
+    "status:detailed": "node scripts/status.js",
+    "monitor:live-dashboard": "node scripts/monitor.js",
+    "emergency:stop-graceful": "node scripts/emergency-stop.js",
+    "rollback:last-checkpoint": "node scripts/rollback.js",
+    "emergency:full-reset": "node scripts/emergency-reset.js"
+  },
+  "keywords": [
+    "sovereign-apex",
+    "powerhouse",
+    "ecosystem",
+    "AI",
+    "automation",
+    "orchestration",
+    "memory-federation",
+    "multi-agent"
+  ],
+  "author": "GlacierEQ",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
